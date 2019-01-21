@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <html lang="en-us">
 
@@ -10,57 +10,76 @@
 
 	<title>Psychic Game</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css">   -->
 
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
+ <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </head>
 
+
+
 <body>
 
-	<header id=banner>
+<div class="container">
 
-		<div class="container">
+	<header id=banner>
+			<div class="container">
 
 			<img src="assets/image/moon.png" class="head-image" alt="Moon">
 
-			<h1>The Psychic Game</h1>
-
-		</div>
+			</div>
 
 	</header>
-
-
-
-	<div id="game" class="main-container">
+	<div class="row">
+  <h1 class="col-md-12">The Psychic Game</h1>
+	</div>
+  
+  <div class="row">
+	  
+			
+<div id="game" class=" main-container col-md-6">
 
 		<p>Guess what letter I'm thinking of!</p>
+         <div>
+		<strong>Wins:  </strong> <span id="win-counter">0</span>
+		</div>
+		
+		<div>
+		<strong>Losses: </strong> <span id="loss-counter">0</span>
+        </div>
 
-		<p>Wins: 0</p>
-
-    <p>Losses: 0</p>
-
-    <p>Guesses left: 9</p>
-
-    <p>Your guesses so far: </p>
-
-	</div>
+         <div>
+		<strong>Guesses Left: </strong> <span id="guesses-left">9</span>
+		</div>
+		
+		<div>
+		<strong>Wrong Guesses: </strong> <span       id="wrong-guesses"></span>
+		</div>
 
 
+	<p>Your guesses so far: </p>
 
-	<div class="main-container">
+</div>
+	
+	 <div class="container col-md-4" > 
 
-		<img src="assets/image/psychic_sign.jpg" class="side-image" alt="Sign">
+			<img src="assets/image/psychic_sign.jpg" class="side-image" alt="Sign">
+	 </div>
+</div>
+	
 
-	</div>
+
+
+
+
+	
 
 
 
 	 <footer>
 
-    <div class="container">
+    <div class="footer1">
 
       Copyright &copy; 2019 Mengistu Tadesse
 
@@ -68,8 +87,8 @@
 
   </footer>
 
-
+	</div>
 
 </body>
 
-</html>
+</html> 
