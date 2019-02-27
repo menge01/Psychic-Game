@@ -5,9 +5,17 @@ body {
     font-size: 18px;
   
     line-height: 34px;
+    background: #c21500;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   
-    background-color: rgb(171, 199, 11);
+    /* background-color: rgb(96, 96, 100); */
+    /* background-image: url(../image/Psychic_Game1.jpeg) ; */
   
+  }
+  #game{
+    color: rgb(62, 10, 206);
   }
   
    .container {
@@ -15,6 +23,7 @@ body {
        max-width: 960px; 
        margin: 0 auto; 
       clear: both;  
+      background-image: url(../image/Psychic_Game1.jpeg) ;
 
   } 
    
@@ -28,7 +37,7 @@ body {
   
     line-height: 49px;
   
-    color: #f05f0b;
+    color: #67f00b;
   
   }
  
